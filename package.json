@@ -1,0 +1,17 @@
+{
+  "name": "pixizam",
+  "version": "0.0.1",
+  "homepage": "http://github.com/eiridescent/pixizam",
+  "author": {
+    "name": "Erika Sorensen",
+    "url": "http://eiridescent.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "~3.2.0",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-browserify": "~3.8.0",
+    "babelify": "~6.1.2"
+  }
+}
