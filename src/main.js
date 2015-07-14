@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function ( event ) {
         gfx.moveTo(last.x, last.y)
            .lineTo(new_.x, new_.y)
            .drawCircle(new_.x, new_.y, 50);
-        last = new_
+        last = new_;
     }
 
     gfx.lineStyle(0).endFill();

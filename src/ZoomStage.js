@@ -32,7 +32,7 @@ class ZoomStage extends PIXI.Container {
     onWheel( event ) {
         let factor   = 1,
             // Firefox has "detail" prop with opposite sign to std wheelDelta
-            delta    = event.hasOwnProperty('wheelDelta') ? event.wheelDelta : -event.detail,
+            delta    = event.wheelDelta || -event.detail,
             local_pt = new PIXI.Point(),
             point    = new PIXI.Point(event.pageX, event.pageY);
 
